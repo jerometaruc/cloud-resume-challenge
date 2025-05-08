@@ -1,5 +1,5 @@
 #home {
-    min-height: 40vh;
+    min-height: 70vh;
     padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
@@ -17,5 +17,5 @@
     font-size: 1.8rem;
     font-weight: 400;
     margin-top: 0;
-    color: #f0ebd8;
+    color: #f6f6f6;
 }
