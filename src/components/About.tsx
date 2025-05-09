@@ -1,6 +1,37 @@
 import React from 'react'
 import '../styles/About.css'
 
+const personalProjectsTech = [
+    'React',
+    'TypeScript',
+    'JavaScript',
+    'GitHub Pages',
+    'Vercel',
+    'AWS'
+]
+
+const academicCourseworkTech = [
+    'Python',
+    'Java',
+    'C'
+]
+
+interface TechStackGroupProps {
+    title: string
+    items: string[]
+}
+
+const TechStackGroup: React.FC<TechStackGroupProps> = ({ title, items }) => (
+    <div className="tech-stack-group">
+        <h4>{title}</h4>
+        <div className="tech-stack">
+            {items.map(item => (
+                <span key={item}>{item}</span>
+            ))}
+        </div>
+    </div>
+)
+
 const About: React.FC = () => {
     return (
         <section id="about" className="section">
@@ -18,11 +49,8 @@ const About: React.FC = () => {
                     </div>
                     <div className="about-card">
                         <h3>Tech Stack</h3>
-                        <ul>
-                            <li>Personal projects using <b>React</b>, <b>TypeScript</b>, and <b>JavaScript</b></li>
-                            <li>Academic projects and coursework in <b>Python</b>, <b>Java</b>, and <b>C</b></li>
-                            <li>Collaborative coding and problem-solving in team environments</li>
-                        </ul>
+                        <TechStackGroup title="Personal Projects" items={personalProjectsTech} />
+                        <TechStackGroup title="Academic Coursework" items={academicCourseworkTech} />
                     </div>
                     <div className="about-card">
                         <h3>Personal Interests</h3>
