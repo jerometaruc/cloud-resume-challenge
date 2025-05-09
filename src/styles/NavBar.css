@@ -1,40 +1,59 @@
 .navbar {
-    background-color: #242424;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    max-width: 80vw;
-    margin: 0 auto 2rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    flex-wrap: wrap;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+  background-color: #242424;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 1rem 0;
+  max-width: 80vw;
+  margin: 0 auto 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-title,
+.navbar-links a,
+.navbar-social a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #f6f6f6;
+  text-decoration: none;
+  background-color: #2e2e2e;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.navbar-title:hover,
+.navbar-links a:hover,
+.navbar-social a:hover {
+  background-color: #3a3a3a;
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
 }
 
 .navbar-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #f6f6f6;
+  justify-self: start;
 }
 
-.navbar-links,
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+  justify-self: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 .navbar-social {
-    display: flex;
-    gap: 1rem;
-}
-
-.navbar-links a,
-.navbar-social a {
-    color: #f6f6f6;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.navbar-links a:hover,
-.navbar-social a:hover {
-    color: #ffffff;
+  display: flex;
+  gap: 1rem;
+  justify-self: end;
+  align-items: center;
 }
