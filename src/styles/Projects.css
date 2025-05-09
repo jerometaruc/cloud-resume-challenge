@@ -46,9 +46,29 @@
 }
 
 .tech-stack span {
-    background: #748cab;
+    background: rgba(255, 255, 255, 0.2); 
     color: #f6f6f6;
     padding: 0.3rem 0.7rem;
     border-radius: 12px;
     font-size: 0.9rem;
+}
+
+.github-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #f6f6f6;
+    text-decoration: none;
+    background-color: #2e2e2e;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.github-button:hover {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.4);
 }

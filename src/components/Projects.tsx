@@ -17,6 +17,14 @@ const Projects: React.FC = () => {
                             <span>TypeScript</span>
                             <span>AWS</span>
                         </div>
+                        <a 
+                            href="https://github.com/jerometaruc/cloud-resume-challenge" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="github-button"
+                        >
+                            View on GitHub
+                        </a>
                     </div>
 
                     <div className="project-card">
@@ -29,6 +37,14 @@ const Projects: React.FC = () => {
                             <span>JavaScript</span>
                             <span>Vercel</span>
                         </div>
+                        <a 
+                            href="https://github.com/jerometaruc/jerome-taruc" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="github-button"
+                        >
+                            View on GitHub
+                        </a>
                     </div>
 
                     <div className="project-card">
@@ -40,6 +56,14 @@ const Projects: React.FC = () => {
                             <span>HTML/CSS</span>
                             <span>GitHub Pages</span>
                         </div>
+                        <a 
+                            href="https://github.com/jerometaruc/jerometaruc.github.io" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="github-button"
+                        >
+                            View on GitHub
+                        </a>
                     </div>
                 </div>
             </div>
