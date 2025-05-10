@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/About.css'
+import React from 'react';
+import '../styles/About.css';
 
 const personalProjectsTech = [
     'React',
@@ -8,17 +8,17 @@ const personalProjectsTech = [
     'GitHub Pages',
     'Vercel',
     'AWS'
-]
+];
 
 const academicCourseworkTech = [
     'Python',
     'Java',
     'C'
-]
+];
 
 interface TechStackGroupProps {
-    title: string
-    items: string[]
+    title: string;
+    items: string[];
 }
 
 const TechStackGroup: React.FC<TechStackGroupProps> = ({ title, items }) => (
@@ -30,7 +30,7 @@ const TechStackGroup: React.FC<TechStackGroupProps> = ({ title, items }) => (
             ))}
         </div>
     </div>
-)
+);
 
 const About: React.FC = () => {
     return (

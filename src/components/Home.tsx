@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/Home.css'
+import React from 'react';
+import '../styles/Home.css';
 import profile_photo from '../assets/profile_photo.jpg';
 
 const Home: React.FC = () => {

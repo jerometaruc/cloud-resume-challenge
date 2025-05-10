@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/NavBar.css'
+import React from 'react';
+import '../styles/NavBar.css';
 
 const NavBar: React.FC = () => {
     const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, section: string) => {
@@ -51,4 +51,4 @@ const NavBar: React.FC = () => {
     );
 };
 
-export default NavBar
+export default NavBar;

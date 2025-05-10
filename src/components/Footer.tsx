@@ -7,6 +7,6 @@ const Footer: React.FC = () => {
             <p>© {new Date().getFullYear()} Jerome Taruc. All rights reserved.</p>
         </div>
     );
-}
+};
 
 export default Footer;
