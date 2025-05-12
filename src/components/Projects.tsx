@@ -10,6 +10,12 @@ interface Project {
 
 const projectData: Project[] = [
     {
+        title: "AWS Cloud Resume",
+        description: "V3.0 of my personal website, as part of the AWS Cloud Resume Challenge.",
+        techStack: ["React", "TypeScript", "AWS"],
+        githubUrl: "https://github.com/jerometaruc/cloud-resume-challenge",
+    },
+    {
         title: "AI Recipe Generator",
         description: "A full-stack AI recipe generator built with React, TypeScript and deployed via AWS.",
         techStack: ["React", "TypeScript", "AWS"],
