@@ -1,11 +1,40 @@
+/* index.css */
+
 :root {
+  /* Base colors */
+  --color-dark: #0D1B2A;
+  --color-dark-lighter: #1B263B;
+  --color-dark-hover: #415A77;
+  
+  /* Text colors */
+  --color-text-primary: rgba(255, 255, 255, 0.87);
+  --color-text-secondary: rgba(255, 255, 255, 0.85);
+  --color-text-bright: #f6f6f6;
+  --color-text-full: #ffffff;
+  
+  /* Border colors */
+  --color-border-light: rgba(255, 255, 255, 0.2);
+  --color-border-medium: rgba(255, 255, 255, 0.3);
+  --color-border-hover: rgba(255, 255, 255, 0.4);
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  
+  /* Background colors */
+  --color-bg-primary: var(--color-dark);
+  --color-bg-secondary: var(--color-dark-lighter);
+  --color-bg-hover: var(--color-dark-hover);
+  --color-bg-tag: rgba(255, 255, 255, 0.2);
+  
+  /* Shadow colors */
+  --color-shadow: rgba(0, 0, 0, 0.5);
+  
+  /* Font settings */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
