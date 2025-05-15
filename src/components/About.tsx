@@ -49,8 +49,8 @@ const About: React.FC = () => {
                     </div>
                     <div className="about-card">
                         <h3>Tech Stack</h3>
-                        <TechStackGroup title="Personal Projects" items={personalProjectsTech} />
-                        <TechStackGroup title="Academic Coursework" items={academicCourseworkTech} />
+                        <TechStackGroup title="Personal Projects:" items={personalProjectsTech} />
+                        <TechStackGroup title="Academic Coursework:" items={academicCourseworkTech} />
                     </div>
                     <div className="about-card">
                         <h3>Personal Interests</h3>
