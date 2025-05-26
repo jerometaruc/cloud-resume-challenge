@@ -21,7 +21,7 @@
 }
 
 .credits,
- .counter-number{
+.counter-number{
     display: inline-block;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -31,4 +31,29 @@
     border: 1px solid var(--color-border-light);
     border-radius: 10px;
     transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 0.25rem;
+        padding: 0.75rem 2rem;
+    }
+
+    .counter-number {
+        order: -1;
+        text-align: center;
+    }
+
+    .credits {
+        text-align: center;
+        white-space: normal;
+        word-wrap: break-word;
+        max-width: 100%;
+    }
+
+    .credits,
+    .counter-number {
+        font-size: 0.8rem;
+    }
 }
