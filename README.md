@@ -47,5 +47,4 @@ Check out the live site here:
 
 - [x] Frontend deployment with Route53, CloudFront, and S3  
 - [x] Backend view counter with Lambda and DynamoDB  
-- [x] CI/CD pipeline with GitHub Actions  
-- [ ] Backend implementation with Terraform  
+- [x] CI/CD pipeline with GitHub Actions
