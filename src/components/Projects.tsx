@@ -10,6 +10,18 @@ interface Project {
 
 const projectData: Project[] = [
     {
+        title: "ReelTrack V2",
+        description: "A personal movie watchlist, built using TypeScript, React, NestJS, and GraphQL.",
+        techStack: ["React", "TypeScript", "NestJS", "GraphQL"],
+        githubUrl: "https://github.com/jerometaruc/reeltrack-v2",
+    },
+    {
+        title: "ReelTrack V1",
+        description: "A personal movie watchlist, built using the MERN stack.",
+        techStack: ["MongoDB", "Express.js", "React", "Node.js"],
+        githubUrl: "https://github.com/jerometaruc/reeltrack-v1",
+    },
+    {
         title: "AWS Cloud Resume",
         description: "V3.0 of my personal website, as part of the AWS Cloud Resume Challenge.",
         techStack: ["React", "TypeScript", "AWS"],
