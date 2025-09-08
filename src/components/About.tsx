@@ -5,8 +5,11 @@ const personalProjectsTech = [
     'React',
     'TypeScript',
     'JavaScript',
-    'GitHub Pages',
-    'Vercel',
+    'MongoDB',
+    'Express.js',
+    'Node.js',
+    'NestJS',
+    'GraphQL',
     'AWS'
 ];
 
